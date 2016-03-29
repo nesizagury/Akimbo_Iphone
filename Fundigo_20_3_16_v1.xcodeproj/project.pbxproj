@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9D422CD1CAA75EE00853D9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D422CC1CAA75EE00853D9D /* main.m */; };
+		B9D422D01CAA75EE00853D9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D422CF1CAA75EE00853D9D /* AppDelegate.m */; };
+		B9D422D31CAA75EE00853D9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D422D21CAA75EE00853D9D /* ViewController.m */; };
+		B9D422D61CAA75EE00853D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D422D41CAA75EE00853D9D /* Main.storyboard */; };
+		B9D422D81CAA75EE00853D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D422D71CAA75EE00853D9D /* Assets.xcassets */; };
+		B9D422DB1CAA75EE00853D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D422D91CAA75EE00853D9D /* LaunchScreen.storyboard */; };
+		B9D422E61CAA75EE00853D9D /* Fundigo_20_3_16_v1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D422E51CAA75EE00853D9D /* Fundigo_20_3_16_v1Tests.m */; };
+		B9D422F11CAA75EE00853D9D /* Fundigo_20_3_16_v1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D422F01CAA75EE00853D9D /* Fundigo_20_3_16_v1UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9D422E21CAA75EE00853D9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9D422C01CAA75EE00853D9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9D422C71CAA75EE00853D9D;
+			remoteInfo = Fundigo_20_3_16_v1;
+		};
+		B9D422ED1CAA75EE00853D9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9D422C01CAA75EE00853D9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9D422C71CAA75EE00853D9D;
+			remoteInfo = Fundigo_20_3_16_v1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9D422C81CAA75EE00853D9D /* Fundigo_20_3_16_v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fundigo_20_3_16_v1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D422CC1CAA75EE00853D9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9D422CE1CAA75EE00853D9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9D422CF1CAA75EE00853D9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9D422D11CAA75EE00853D9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B9D422D21CAA75EE00853D9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B9D422D51CAA75EE00853D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9D422D71CAA75EE00853D9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9D422DA1CAA75EE00853D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9D422DC1CAA75EE00853D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9D422E11CAA75EE00853D9D /* Fundigo_20_3_16_v1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fundigo_20_3_16_v1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D422E51CAA75EE00853D9D /* Fundigo_20_3_16_v1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fundigo_20_3_16_v1Tests.m; sourceTree = "<group>"; };
+		B9D422E71CAA75EE00853D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9D422EC1CAA75EE00853D9D /* Fundigo_20_3_16_v1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fundigo_20_3_16_v1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D422F01CAA75EE00853D9D /* Fundigo_20_3_16_v1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fundigo_20_3_16_v1UITests.m; sourceTree = "<group>"; };
+		B9D422F21CAA75EE00853D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9D422C51CAA75EE00853D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D422DE1CAA75EE00853D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D422E91CAA75EE00853D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9D422BF1CAA75EE00853D9D = {
+			isa = PBXGroup;
+			children = (
+				B9D422CA1CAA75EE00853D9D /* Fundigo_20_3_16_v1 */,
+				B9D422E41CAA75EE00853D9D /* Fundigo_20_3_16_v1Tests */,
+				B9D422EF1CAA75EE00853D9D /* Fundigo_20_3_16_v1UITests */,
+				B9D422C91CAA75EE00853D9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9D422C91CAA75EE00853D9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9D422C81CAA75EE00853D9D /* Fundigo_20_3_16_v1.app */,
+				B9D422E11CAA75EE00853D9D /* Fundigo_20_3_16_v1Tests.xctest */,
+				B9D422EC1CAA75EE00853D9D /* Fundigo_20_3_16_v1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9D422CA1CAA75EE00853D9D /* Fundigo_20_3_16_v1 */ = {
+			isa = PBXGroup;
+			children = (
+				B9D422CE1CAA75EE00853D9D /* AppDelegate.h */,
+				B9D422CF1CAA75EE00853D9D /* AppDelegate.m */,
+				B9D422D11CAA75EE00853D9D /* ViewController.h */,
+				B9D422D21CAA75EE00853D9D /* ViewController.m */,
+				B9D422D41CAA75EE00853D9D /* Main.storyboard */,
+				B9D422D71CAA75EE00853D9D /* Assets.xcassets */,
+				B9D422D91CAA75EE00853D9D /* LaunchScreen.storyboard */,
+				B9D422DC1CAA75EE00853D9D /* Info.plist */,
+				B9D422CB1CAA75EE00853D9D /* Supporting Files */,
+			);
+			path = Fundigo_20_3_16_v1;
+			sourceTree = "<group>";
+		};
+		B9D422CB1CAA75EE00853D9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9D422CC1CAA75EE00853D9D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9D422E41CAA75EE00853D9D /* Fundigo_20_3_16_v1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B9D422E51CAA75EE00853D9D /* Fundigo_20_3_16_v1Tests.m */,
+				B9D422E71CAA75EE00853D9D /* Info.plist */,
+			);
+			path = Fundigo_20_3_16_v1Tests;
+			sourceTree = "<group>";
+		};
+		B9D422EF1CAA75EE00853D9D /* Fundigo_20_3_16_v1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9D422F01CAA75EE00853D9D /* Fundigo_20_3_16_v1UITests.m */,
+				B9D422F21CAA75EE00853D9D /* Info.plist */,
+			);
+			path = Fundigo_20_3_16_v1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9D422C71CAA75EE00853D9D /* Fundigo_20_3_16_v1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9D422F51CAA75EE00853D9D /* Build configuration list for PBXNativeTarget "Fundigo_20_3_16_v1" */;
+			buildPhases = (
+				B9D422C41CAA75EE00853D9D /* Sources */,
+				B9D422C51CAA75EE00853D9D /* Frameworks */,
+				B9D422C61CAA75EE00853D9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fundigo_20_3_16_v1;
+			productName = Fundigo_20_3_16_v1;
+			productReference = B9D422C81CAA75EE00853D9D /* Fundigo_20_3_16_v1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9D422E01CAA75EE00853D9D /* Fundigo_20_3_16_v1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9D422F81CAA75EE00853D9D /* Build configuration list for PBXNativeTarget "Fundigo_20_3_16_v1Tests" */;
+			buildPhases = (
+				B9D422DD1CAA75EE00853D9D /* Sources */,
+				B9D422DE1CAA75EE00853D9D /* Frameworks */,
+				B9D422DF1CAA75EE00853D9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9D422E31CAA75EE00853D9D /* PBXTargetDependency */,
+			);
+			name = Fundigo_20_3_16_v1Tests;
+			productName = Fundigo_20_3_16_v1Tests;
+			productReference = B9D422E11CAA75EE00853D9D /* Fundigo_20_3_16_v1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9D422EB1CAA75EE00853D9D /* Fundigo_20_3_16_v1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9D422FB1CAA75EE00853D9D /* Build configuration list for PBXNativeTarget "Fundigo_20_3_16_v1UITests" */;
+			buildPhases = (
+				B9D422E81CAA75EE00853D9D /* Sources */,
+				B9D422E91CAA75EE00853D9D /* Frameworks */,
+				B9D422EA1CAA75EE00853D9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9D422EE1CAA75EE00853D9D /* PBXTargetDependency */,
+			);
+			name = Fundigo_20_3_16_v1UITests;
+			productName = Fundigo_20_3_16_v1UITests;
+			productReference = B9D422EC1CAA75EE00853D9D /* Fundigo_20_3_16_v1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9D422C01CAA75EE00853D9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = user116889;
+				TargetAttributes = {
+					B9D422C71CAA75EE00853D9D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B9D422E01CAA75EE00853D9D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B9D422C71CAA75EE00853D9D;
+					};
+					B9D422EB1CAA75EE00853D9D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B9D422C71CAA75EE00853D9D;
+					};
+				};
+			};
+			buildConfigurationList = B9D422C31CAA75EE00853D9D /* Build configuration list for PBXProject "Fundigo_20_3_16_v1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9D422BF1CAA75EE00853D9D;
+			productRefGroup = B9D422C91CAA75EE00853D9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9D422C71CAA75EE00853D9D /* Fundigo_20_3_16_v1 */,
+				B9D422E01CAA75EE00853D9D /* Fundigo_20_3_16_v1Tests */,
+				B9D422EB1CAA75EE00853D9D /* Fundigo_20_3_16_v1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9D422C61CAA75EE00853D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D422DB1CAA75EE00853D9D /* LaunchScreen.storyboard in Resources */,
+				B9D422D81CAA75EE00853D9D /* Assets.xcassets in Resources */,
+				B9D422D61CAA75EE00853D9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D422DF1CAA75EE00853D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D422EA1CAA75EE00853D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9D422C41CAA75EE00853D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D422D31CAA75EE00853D9D /* ViewController.m in Sources */,
+				B9D422D01CAA75EE00853D9D /* AppDelegate.m in Sources */,
+				B9D422CD1CAA75EE00853D9D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D422DD1CAA75EE00853D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D422E61CAA75EE00853D9D /* Fundigo_20_3_16_v1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D422E81CAA75EE00853D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D422F11CAA75EE00853D9D /* Fundigo_20_3_16_v1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9D422E31CAA75EE00853D9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9D422C71CAA75EE00853D9D /* Fundigo_20_3_16_v1 */;
+			targetProxy = B9D422E21CAA75EE00853D9D /* PBXContainerItemProxy */;
+		};
+		B9D422EE1CAA75EE00853D9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9D422C71CAA75EE00853D9D /* Fundigo_20_3_16_v1 */;
+			targetProxy = B9D422ED1CAA75EE00853D9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9D422D41CAA75EE00853D9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9D422D51CAA75EE00853D9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9D422D91CAA75EE00853D9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9D422DA1CAA75EE00853D9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9D422F31CAA75EE00853D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B9D422F41CAA75EE00853D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9D422F61CAA75EE00853D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fundigo_20_3_16_v1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fundigo-20-3-16-v1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9D422F71CAA75EE00853D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fundigo_20_3_16_v1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fundigo-20-3-16-v1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B9D422F91CAA75EE00853D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Fundigo_20_3_16_v1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fundigo-20-3-16-v1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fundigo_20_3_16_v1.app/Fundigo_20_3_16_v1";
+			};
+			name = Debug;
+		};
+		B9D422FA1CAA75EE00853D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Fundigo_20_3_16_v1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fundigo-20-3-16-v1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fundigo_20_3_16_v1.app/Fundigo_20_3_16_v1";
+			};
+			name = Release;
+		};
+		B9D422FC1CAA75EE00853D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Fundigo_20_3_16_v1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fundigo-20-3-16-v1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fundigo_20_3_16_v1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B9D422FD1CAA75EE00853D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Fundigo_20_3_16_v1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fundigo-20-3-16-v1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fundigo_20_3_16_v1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9D422C31CAA75EE00853D9D /* Build configuration list for PBXProject "Fundigo_20_3_16_v1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D422F31CAA75EE00853D9D /* Debug */,
+				B9D422F41CAA75EE00853D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9D422F51CAA75EE00853D9D /* Build configuration list for PBXNativeTarget "Fundigo_20_3_16_v1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D422F61CAA75EE00853D9D /* Debug */,
+				B9D422F71CAA75EE00853D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9D422F81CAA75EE00853D9D /* Build configuration list for PBXNativeTarget "Fundigo_20_3_16_v1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D422F91CAA75EE00853D9D /* Debug */,
+				B9D422FA1CAA75EE00853D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9D422FB1CAA75EE00853D9D /* Build configuration list for PBXNativeTarget "Fundigo_20_3_16_v1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D422FC1CAA75EE00853D9D /* Debug */,
+				B9D422FD1CAA75EE00853D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9D422C01CAA75EE00853D9D /* Project object */;
+}
